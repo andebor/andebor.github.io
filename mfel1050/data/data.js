@@ -408,11 +408,12 @@ var exams = {"v12" : [
    ]},
 
 {
-   "question":"a) 70/30",
+   "question":"Hvordan er fordelingen mellom anaerob- og aerob energiomsetning i løpet av en fotballkamp?",
    "solution":"2",
    "explaination":"",
    "number":"35",
    "alternatives": [
+      "70/30",
       "98/2",
       "2/98",
       "30/70"
