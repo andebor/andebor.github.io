@@ -41,7 +41,7 @@ function loadNextQuestion() {
 
 function finished() {
     $('.hero-unit').html('<a href="" class="btn btn-primary btn-large">AGAIN!</a>');
-    if (numOfCorrectAnswers/i < 0.4) {
+    if (numOfCorrectAnswers/i < 0.6) {
         $('.hero-unit').prepend("<h2>PHAIL.</h2> <p>Du strøyk. Skjerpings!</p>");
         $('.btn-large').addClass('btn-danger');
     }
