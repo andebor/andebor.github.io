@@ -73,18 +73,10 @@ function submitAnswer(alternativ) {
 
 function calculateGrade(correct, total) {
     var percent = 100*correct/total;
-    if (percent >= 90)
-        return "A";
-    if (percent >= 80)
-        return "B";
     if (percent >= 60)
-        return "C";
-    if (percent >= 50)
-        return "D";
-    if (percent >= 40)
-        return "E";
+        return "Bestått";
     else
-        return "F (" + percent.toFixed(1) + " %)";
+        return "Ikke bestått. (" + percent.toFixed(1) + " %)";
 }
 
 
